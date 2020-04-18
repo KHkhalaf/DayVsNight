@@ -1,0 +1,14 @@
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\bin\Debug\netstandard2.0\DayVsNight.deps.json
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\bin\Debug\netstandard2.0\DayVsNight.dll
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\bin\Debug\netstandard2.0\DayVsNight.pdb
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\obj\Debug\netstandard2.0\DayVsNight.csprojAssemblyReference.cache
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\obj\Debug\netstandard2.0\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\obj\Debug\netstandard2.0\GaugeControl.xaml.g.cs
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\obj\Debug\netstandard2.0\Themes\DarkTheme.xaml.g.cs
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\obj\Debug\netstandard2.0\Themes\LightTheme.xaml.g.cs
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\obj\Debug\netstandard2.0\DayVsNight.AssemblyInfoInputs.cache
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\obj\Debug\netstandard2.0\DayVsNight.AssemblyInfo.cs
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\obj\Debug\netstandard2.0\XamlC.stamp
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\obj\Debug\netstandard2.0\DayVsNight.dll
+G:\courses\xamarin\Some Projects\DayVsNight-master\src\DayVsNight\DayVsNight\DayVsNight\obj\Debug\netstandard2.0\DayVsNight.pdb
