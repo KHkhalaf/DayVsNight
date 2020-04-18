@@ -29,10 +29,10 @@
             Source="{DynamicResource MountainImage}"
             VerticalOptions="End" />
 
-        <StackLayout Padding="20,30,20,0">
+        <StackLayout Padding="20,20,20,0">
 
             <!--  Header Section  -->
-            <Grid Margin="0,20,0,0">
+            <Grid Margin="0,0,0,0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="AUTO" />
@@ -101,7 +101,7 @@
             <Label Style="{StaticResource SubHeader}" Text="Temperature" />
 
             <!--  Temp Guage  -->
-            <Grid HeightRequest="170">
+            <Grid HeightRequest="350">
 
                 <local:GaugeControl />
 
@@ -122,18 +122,18 @@
             </Grid>
             <!--  Security  -->
             <Label
-                Margin="0"
+                Margin="0,-25,0,0"
                 Style="{StaticResource SubHeader}"
                 Text="Security" />
 
             <ScrollView HorizontalScrollBarVisibility="Never" Orientation="Horizontal">
                 <StackLayout Orientation="Horizontal">
                     <!--  room  -->
-                    <pancake:PancakeView CornerRadius="10">
+                    <Frame CornerRadius="10">
                         <Grid
                             BackgroundColor="Red"
-                            HeightRequest="100"
-                            WidthRequest="150">
+                            HeightRequest="150"
+                            WidthRequest="170">
                             <Image Aspect="AspectFill" Source="Room1" />
                             <Frame
                                 Margin="5"
@@ -146,12 +146,12 @@
                                 <Label Style="{StaticResource TagLabel}" Text="Zone 1" />
                             </Frame>
                         </Grid>
-                    </pancake:PancakeView>
-                    <pancake:PancakeView CornerRadius="10">
+                    </Frame>
+                    <Frame CornerRadius="10">
                         <Grid
                             BackgroundColor="Red"
-                            HeightRequest="100"
-                            WidthRequest="150">
+                            HeightRequest="150"
+                            WidthRequest="170">
                             <Image Aspect="AspectFill" Source="Room2" />
                             <Frame
                                 Margin="5"
@@ -164,12 +164,12 @@
                                 <Label Style="{StaticResource TagLabel}" Text="Zone 2" />
                             </Frame>
                         </Grid>
-                    </pancake:PancakeView>
-                    <pancake:PancakeView CornerRadius="10">
+                    </Frame>
+                    <Frame CornerRadius="10">
                         <Grid
                             BackgroundColor="Red"
-                            HeightRequest="100"
-                            WidthRequest="150">
+                            HeightRequest="150"
+                            WidthRequest="170">
                             <Image Aspect="AspectFill" Source="Room3" />
                             <Frame
                                 Margin="5"
@@ -182,7 +182,7 @@
                                 <Label Style="{StaticResource TagLabel}" Text="Zone 3" />
                             </Frame>
                         </Grid>
-                    </pancake:PancakeView>
+                    </Frame>
 
 
                 </StackLayout>
@@ -196,7 +196,7 @@
             Margin="20,20,20,40"
             HorizontalScrollBarVisibility="Never"
             Orientation="Horizontal">
-            <StackLayout Orientation="Horizontal" Spacing="20">
+            <StackLayout x:Name="stackParent" Orientation="Horizontal" Spacing="20">
                 <StackLayout Orientation="Vertical">
                     <BoxView
                         BackgroundColor="White"
@@ -208,6 +208,9 @@
                         Style="{StaticResource SubText}"
                         Text="5 Active Devices"
                         TextColor="White" />
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Stack_TapGesture"/>
+                    </StackLayout.GestureRecognizers>
                 </StackLayout>
 
 
@@ -225,6 +228,9 @@
                         Style="{StaticResource TabSubText}"
                         Text="5 Active Devices"
                         TextColor="{StaticResource TabSubTextColor}" />
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Stack_TapGesture"/>
+                    </StackLayout.GestureRecognizers>
                 </StackLayout>
 
                 <StackLayout Orientation="Vertical">
@@ -241,6 +247,9 @@
                         Style="{StaticResource TabSubText}"
                         Text="5 Active Devices"
                         TextColor="{StaticResource TabSubTextColor}" />
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Stack_TapGesture"/>
+                    </StackLayout.GestureRecognizers>
                 </StackLayout>
             </StackLayout>
 

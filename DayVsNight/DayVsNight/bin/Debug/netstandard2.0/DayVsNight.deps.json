@@ -16,7 +16,7 @@
           "SkiaSharp.Views.Forms": "1.68.0",
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Essentials": "1.1.0",
-          "Xamarin.Forms": "3.6.0.344457",
+          "Xamarin.Forms": "4.6.0.616-pre4",
           "Xamarin.Forms.PancakeView": "1.0.21"
         },
         "runtime": {
@@ -63,7 +63,7 @@
       "SkiaSharp.Views.Forms/1.68.0": {
         "dependencies": {
           "SkiaSharp": "1.68.0",
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.6.0.616-pre4"
         },
         "runtime": {
           "lib/netstandard1.3/SkiaSharp.Views.Forms.dll": {
@@ -82,7 +82,7 @@
       },
       "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.6.0.616-pre4"
         },
         "runtime": {
           "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {
@@ -102,25 +102,25 @@
           }
         }
       },
-      "Xamarin.Forms/3.6.0.344457": {
+      "Xamarin.Forms/4.6.0.616-pre4": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
+            "fileVersion": "4.6.0.401"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.6.0.401"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.0.0"
+            "fileVersion": "4.6.0.401"
           }
         }
       },
       "Xamarin.Forms.PancakeView/1.0.21": {
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.344457"
+          "Xamarin.Forms": "4.6.0.616-pre4"
         },
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll": {
@@ -207,12 +207,12 @@
       "path": "xamarin.essentials/1.1.0",
       "hashPath": "xamarin.essentials.1.1.0.nupkg.sha512"
     },
-    "Xamarin.Forms/3.6.0.344457": {
+    "Xamarin.Forms/4.6.0.616-pre4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7IffIKgL0fmgbfCLKzXaFKJ7uOueKiz/BIgmAG1Z5WMn+vMKeALe5GgRs3Uddo670VzllIHWkNEZD3lG+e02bw==",
-      "path": "xamarin.forms/3.6.0.344457",
-      "hashPath": "xamarin.forms.3.6.0.344457.nupkg.sha512"
+      "sha512": "sha512-JsO9xI0Ib4Z4AQWegugWwmadwLdOjXpUPO5A9IQXTXryPOxYPq0qX+K+siXYsHCo31NgV8/ncrHCbafTuYc/fg==",
+      "path": "xamarin.forms/4.6.0.616-pre4",
+      "hashPath": "xamarin.forms.4.6.0.616-pre4.nupkg.sha512"
     },
     "Xamarin.Forms.PancakeView/1.0.21": {
       "type": "package",

@@ -90,6 +90,33 @@ namespace DayVsNight
             canvas.DrawRect(backgroundBounds, backgroundBrush);
 
 
+            Color color = (Color)Application.Current.Resources["TabSubTextColor"];
+            for (int i = 0; i < stackParent.Children.Count; i++)
+            {
+                StackLayout stack = stackParent.Children[i] as StackLayout;
+                if (stack.Children[0].BackgroundColor != Color.White)
+                {
+                    (stack.Children[0] as BoxView).BackgroundColor = color;
+                    (stack.Children[1] as Label).TextColor = color;
+                    (stack.Children[2] as Label).TextColor = color;
+                }
+            }
+        }
+
+        private void Stack_TapGesture(object sender, EventArgs e)
+        {
+            StackLayout stackLayout = sender as StackLayout;
+            Color color = (Color)Application.Current.Resources["TabSubTextColor"];
+            for(int i= 0;i < stackParent.Children.Count; i++)
+            {
+                StackLayout stack = stackParent.Children[i] as StackLayout;
+                (stack.Children[0] as BoxView).BackgroundColor = color;
+                (stack.Children[1] as Label).TextColor = color;
+                (stack.Children[2] as Label).TextColor = color;
+            }
+            (stackLayout.Children[0] as BoxView).BackgroundColor = Color.White;
+            (stackLayout.Children[1] as Label).TextColor = Color.White;
+            (stackLayout.Children[2] as Label).TextColor = Color.White;
         }
     }
 }

@@ -56,7 +56,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.344457, )"
+              "version": "[4.6.0.616-pre4, )"
             },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",
@@ -148,7 +148,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.344457, )"
+              "version": "[4.6.0.616-pre4, )"
             },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",

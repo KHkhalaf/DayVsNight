@@ -10,7 +10,7 @@
     <Color x:Key="ArrowColor">#768ea0</Color>
     <Color x:Key="BorderColor">#d2d7dd</Color>
     <Color x:Key="TagColor">#ffa318</Color>
-    <Color x:Key="TabSubTextColor">#FFFFFF</Color>
+    <Color x:Key="TabSubTextColor">#a2b1fc</Color>
     <Color x:Key="SubTextColor">#FFFFFF</Color>
     <Color x:Key="TempLabelColor">#ffffff</Color>
 
